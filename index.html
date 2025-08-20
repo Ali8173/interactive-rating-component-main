@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <main class="container">
+      <div class="img-div">
+        <img src="./images/icon-star.svg" alt="ratings" class="img" />
+      </div>
+      <h1 class="container-h1">How did we do?</h1>
+      <p class="container-p">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <nav class="nav">
+        <a href="#" id="1">1</a>
+        <a href="#" id="2">2</a>
+        <a href="#" id="3">3</a>
+        <a href="#" id="4">4</a>
+        <a href="#" id="5">5</a>
+      </nav>
+      <button class="btn" id="btn">Submit</button>
+
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+      <article class="feedback hidden">
+        <h3 class="feedback-h3">Thank You!</h3>
+        <!-- Add rating here -->
+
+        <p class="feedback-p">
+          out of 5!!! Thank you! We appreciate you taking the time to give a
+          rating. If you ever need more support, don’t hesitate to get in touch!
+        </p>
+      </article>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Abdussalam Ali Muhammad</a>.
+      </div>
+    </main>
+    <!-- Thank you state end -->
+    <script src="main.js"></script>
+  </body>
+</html>
